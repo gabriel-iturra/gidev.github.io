@@ -30,7 +30,6 @@ body {
   text-indent: 4em;
 }
 
-
 .navbar {
   position: fixed;
   top: 0;
@@ -73,8 +72,34 @@ body {
 }
 
 #calendly-embed {
-  min-width:520px;
-  height:600px;
+  min-width: 520px;
+  height: 600px;
+}
+
+@media (max-width: 550px) {
+  #calendly-embed {
+    min-width: 460px;
+    height: 600px;
+  }
+
+  #logo-navbar {
+    width: 75%;
+  }
+}
+
+@media (max-width: 435px) {
+  #calendly-embed {
+    min-width: 300px;
+    height: 600px;
+  }
+
+  #logo-navbar {
+    width: 50%;
+  }
+
+  #button-navbar {
+    margin-top: 10px;
+  }
 }
 
 .calendly-spinner {
