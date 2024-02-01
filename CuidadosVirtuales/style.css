@@ -1,0 +1,111 @@
+body::before {
+    display: block;
+    content: '';
+    height: 90px;
+}
+
+body {
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+  #agendar .col.text-center.justify-content-center {
+    height: auto;
+  }
+  #agendar .col.text-center.justify-content-center > div {
+    margin-bottom: 20px;
+  }
+  #agendar .col-md.d-flex.justify-content-center {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@media (min-width: 769px) {
+  #agendar .row {
+    align-items: center;
+  }
+}
+
+.p {
+  text-indent: 4em;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.5s;
+}
+
+.navbar.hidden {
+  top: -250px;
+}
+
+#queobtendras {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 9%, rgba(230,190,197,1) 100%);
+}
+
+#cuidadosvirtuales {
+  background: rgb(230,190,197);
+  background: linear-gradient(180deg, rgba(230,190,197,1) 0%, rgba(230,190,197,1) 89%, rgba(157,193,228,1) 100%);
+}
+
+#sobremi {
+  background: #9DC1E4;
+}
+
+#docencia2 {
+  background: rgb(244,180,117);
+  background: linear-gradient(180deg, rgba(244,180,117,1) 0%, rgba(244,180,117,1) 59%, rgba(249,217,184,1) 81%, rgba(255,255,255,1) 100%);
+}
+
+.btn-instagram {
+  background-color: #C13584;
+  color: white;
+}
+
+.btn-agendar {
+  background-color: #F4B475;
+  color: black;
+  text-decoration: none;
+}
+
+#calendly-embed {
+  min-width:520px;
+  height:600px;
+}
+
+.calendly-spinner {
+  display: none;
+}
+
+.reveal {
+  position: relative;
+   transform: translateY(150px);
+   opacity: 0;
+   transition: 0.5s all ease;
+}
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  #docencia {
+  color: white;
+	-webkit-text-stroke: 0.5px #F8F8F8;
+	text-shadow: 1px 4px 4px #23430C;
+  }
+
+
+  /* Bordes */
+
+  .striped-border {
+    border-top: 10px ridge #74acdc;
+    border-right: 10px ridge #74acdc;
+    border-bottom: 10px ridge #f4b475;
+    border-left: 10px ridge #f4b475;
+    border-radius: 20px;
+  }
