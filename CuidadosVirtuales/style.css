@@ -26,6 +26,11 @@ body {
   }
 }
 
+.last-card {
+  flex-grow: 1;
+  min-width: 0;
+}
+
 .p {
   text-indent: 4em;
 }
@@ -61,14 +66,25 @@ body {
 }
 
 .btn-instagram {
-  background-color: #C13584;
+  background-color: #DC446D;
   color: white;
 }
 
-.btn-agendar {
-  background-color: #F4B475;
-  color: black;
+.btn-instagram:hover {
+  background-color: #b33a5a; /* Replace with the desired darker color */
+}
+
+.btn-agendar a {
+  color: white;
   text-decoration: none;
+}
+
+.btn-agendar i {
+  color: white;
+}
+
+.btn-agendar:hover {
+  background-color: #1ab5d4;
 }
 
 #calendly-embed {
