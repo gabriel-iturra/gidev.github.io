@@ -33,3 +33,10 @@ function hideNavbar(time) {
       document.querySelector('.navbar').classList.add('hidden');
   }, time);
 }
+
+$(function() {
+  $('.shape').addClass("shape-border");
+  $('.svg-wrapper').click(function() {
+    $('.shape').toggleClass('shape-border');
+  });
+});
