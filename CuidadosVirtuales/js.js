@@ -34,9 +34,26 @@ function hideNavbar(time) {
   }, time);
 }
 
-$(function() {
-  $('.shape').addClass("shape-border");
-  $('.svg-wrapper').click(function() {
-    $('.shape').toggleClass('shape-border');
-  });
-});
+// Get the container element
+const container = document.querySelector('.  ');
+
+// Function to check if the container is visible on the screen
+function isElementVisible(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+// Function to handle scroll event
+function handleScroll() {
+  if (isElementVisible(container)) {
+    container.classList.add('active'); // Add the active class
+  }
+}
+
+// Attach the scroll event listener
+window.addEventListener('scroll', handleScroll);
