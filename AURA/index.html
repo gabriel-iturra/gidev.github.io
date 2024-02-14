@@ -13,10 +13,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light fixed-top" id="first-container">
         <div class="container">
-            <a class="navbar-brand" href="#" >
-                <img src="img\AuraLogo2.jpg" width="199" height="45">
-            </a>
-
+          <a class="navbar-brand d-lg-none" href="#"><img src="img\AuraLogo2.jpg" width="199" height="45"></a>
             <button 
                     class="navbar-toggler"
                     type="button" 
@@ -36,6 +33,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Qué Ofrecemos</a>
                   </li>
+                  <a class="d-none d-lg-block" href="#" ><img src="img\AuraLogo2.jpg" width="199" height="45"></a>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Conócenos</a>
                   </li>
@@ -51,11 +49,16 @@
     </nav>
     
     <!-- Nuestro Estudio -->
-    <section class="bg-dark text-center p-5">
-        <div class="container">
-          <img src="img\AuraLogo1.jpg"></div>
-          <p class="lead text-white">Nuestro Estudio</p>
-    </section>
+    <section class="video-section d-flex align-items-center justify-content-center text-center">
+      <div class="container">
+        <h1 class="aura-text display-1">AURA</h1>
+        <p class="estudio-text">Estudios de Música</p>
+      </div>
+      <video class="video-background" autoplay loop muted>
+        <source src="a.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+   </section>
 
     <!-- Qué Ofrecemos -->
     <section class="bg-warning p-5">
