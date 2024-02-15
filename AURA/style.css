@@ -9,6 +9,17 @@
     padding: .5em 1em;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.5s;
+}
+
+.navbar.hidden {
+  top: -250px;
+}
+
 .aura-text {
     color: white;
     font-family: "Karibu Wide Light", sans-serif;
