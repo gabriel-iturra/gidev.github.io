@@ -51,3 +51,9 @@
     object-fit: cover;
     z-index: -1; 
   }
+
+  #sobremi {
+    background-image: url('img/360091478_10227430458040635_8369267088220136880_n.jpg'); 
+    background-size: cover; 
+    background-position: center;
+  }
