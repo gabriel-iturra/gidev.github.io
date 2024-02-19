@@ -24,19 +24,17 @@
   user-select: none;
 }
 
-.glowing-svg {
-  filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #fff) drop-shadow(0 0 15px #00bcd4) drop-shadow(0 0 20px #ff3d00) drop-shadow(0 0 30px #ff3d00) drop-shadow(0 0 40px #ff3d00) drop-shadow(0 0 50px #ff3d00) drop-shadow(0 0 75px #ff3d00);
+.aura-text {
+  color: white;
+  font-family: "Karibu Wide Light", sans-serif;
+  letter-spacing: 20px; 
+  margin-bottom: 20px;
 }
 
-.glowing-svg path {
-  fill: #ff3d00;
+.estudio-text {
+  color: white; 
+  margin-top: 0;
 }
-
-  .estudio-text {
-    color: white; 
-    margin-top: 0;
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #00bcd4, 0 0 8px #ff3d00, 0 0 10px #ff3d00, 0 0 12px #ff3d00, 0 0 20px #ff3d00;
-  }
 
 .video-section {
     position: relative;
