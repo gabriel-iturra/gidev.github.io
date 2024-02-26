@@ -48,30 +48,47 @@
     z-index: -1; 
   }
 
-  .diagonal-line {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .diagonal-line::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom right, transparent 50%, #ffffff 50%),
-                #000000;
-    background-blend-mode: screen;
-    z-index: -1;
-    transform: translateY(-50%) skew(-45deg);
-  }
-
-  #somosaura1 {
+  /* #somosaura1 {
     padding: 200px;
     background-image: url('img/performance.jpg');
     background-size: cover;
     background-position: center;
+  } */
+
+  #somosaura1 {
+    background-image: url('img/performance.jpg');
+    padding: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .quote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 40%;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+    background: #000;
+  }
+  
+  .test {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
   }
 
   #somosaura2 {
@@ -81,15 +98,6 @@
     background-position: center;
   }
 
-  #somosaura1 {
-    background-image: url('img/performance.jpg'); 
-    padding: 200px;
-  }
-
-  #somosaura2 {
-    background-image: url('img/guitars.jpg'); 
-    padding: 200px;
-  }
 
   #sobremi {
     background-image: url('img/abrahamfondo.jpg'); 
