@@ -1,3 +1,8 @@
+body {
+  font-family: 'Syne', sans-serif;
+  font-style: normal;
+}
+
 .navbar .navbar-nav .nav-link {
     color: #000000;
     font-size: 1.1em;
@@ -104,4 +109,24 @@
     background-size: cover; 
     background-position: center;
     padding: 200px;
+  }
+
+  .custom-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    max-width: 60%;
+    max-height: 150px;
+  }
+  
+  .custom-caption h5 {
+    font-size: 24px;
+    white-space: normal;
+    color: white;
   }
