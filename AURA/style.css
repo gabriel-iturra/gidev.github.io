@@ -110,6 +110,7 @@ body {
 }
 
 #cuadrados {
+  background-image: url('img/cardsbg.jpg'); 
   padding-top: 20px;
   padding-bottom: 10px;
 }
