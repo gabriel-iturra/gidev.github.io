@@ -1,7 +1,9 @@
 /* Index */
 #topindex {
     background-image: url("res/1.jpg");
+    min-height: 300px;
 }
+
 
 #ourmotivation {
     background-color: aquamarine;
@@ -23,3 +25,37 @@
 
 }
 /* Index End */
+
+
+
+
+/* About (Our Team) */
+#topabout {
+    background-image: url("res/4.jpg");
+    min-height: 300px;
+}
+
+#helpus {
+    background-image: url("res/8.jpg");
+    min-height: 300px;
+}
+/* About (Our Team) End */
+
+
+
+
+/* Adopt */
+#topadopt {
+    background-image: url("res/9.jpg");
+    min-height: 300px;
+}
+/* Adopt End */
+
+
+
+/* Contact */
+#topcontact {
+    background-image: url("res/10.jpg");
+    min-height: 300px;
+}
+/* Contact End */
