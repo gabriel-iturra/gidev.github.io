@@ -1,3 +1,25 @@
-#inicio1 {
-    background-image: "res/1.jpg";
+/* Index */
+#topindex {
+    background-image: url("res/1.jpg");
 }
+
+#ourmotivation {
+    background-color: aquamarine;
+}
+
+#created {
+/* Parallax */
+  background-image: url("res/3.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#whoarewe {
+
+}
+/* Index End */
