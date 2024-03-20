@@ -1,28 +1,116 @@
+body { 
+    /* Beige color */
+    background-color: #E5C287;
+}
+
+button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Text */
+p {
+    /* Arsenal Regular */
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(16px + 0.3vw)
+}
+
+h1 {
+    /* Arsenal Bold */
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: calc(26px + 2.5vw)
+}
+
+h2 {
+    /* Arsenal Bold */
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: calc(18px + 1vw)
+}
+
+
+
+/* Background colors */
+.beigebg {
+    background-color: #E5C287;
+}
+
+.goldenbg{
+    background-color: #898121;
+}
+
+
+
+
+/* Fonts */
+.arsenal-regular {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
+  .arsenal-bold {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .arsenal-regular-italic {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .arsenal-bold-italic {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
+
+
 /* Index */
 #topindex {
     background-image: url("res/1.jpg");
-    min-height: 300px;
+    min-height: 400px;
+    padding-top: 120px;
 }
 
 
 #ourmotivation {
-    background-color: aquamarine;
 }
 
 #created {
 /* Parallax */
-  background-image: url("res/3.jpg");
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("res/3.jpg");
   min-height: 500px;
-
+  color: #FDA403;
+  text-shadow: 2px 2px #80420f;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#whoarewe {
+#howcanyouhelp {
+}
 
+.card {
+    padding: 100px;
+    background-color: #ffffff00;
+    border-width: 3px;
+}
+
+#followusoninstagram {
 }
 /* Index End */
 
@@ -33,6 +121,9 @@
 #topabout {
     background-image: url("res/4.jpg");
     min-height: 300px;
+}
+
+#teamcards {
 }
 
 #helpus {
@@ -59,3 +150,16 @@
     min-height: 300px;
 }
 /* Contact End */
+
+
+/* Colors */
+/* 
+#FDA403 - Amarillo
+#E8751A - Naranjo
+#898121 - Dorado
+#E5C287 - Beige
+*/
+
+
+
+
