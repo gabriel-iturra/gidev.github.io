@@ -74,7 +74,11 @@ h2 {
   }
   
 
-
+/* Navbar */
+.navbar-img {
+    max-width: 50%;
+    margin-left: 110px;
+}
 
 
 /* Index */
@@ -82,6 +86,7 @@ h2 {
     background-image: url("res/1.jpg");
     min-height: 400px;
     padding-top: 120px;
+    padding-left: 110px;
 }
 
 
