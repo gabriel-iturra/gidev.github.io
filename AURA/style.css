@@ -1,11 +1,18 @@
+body {
+  font-family: 'Syne', sans-serif;
+  font-style: normal;
+}
+
 .navbar .navbar-nav .nav-link {
     color: #000000;
     font-size: 1.1em;
 }
-.navbar .navbar-nav .nav-link:hover{
+
+.navbar .navbar-nav .nav-link:hover {
     color: #808080;
 }
-.navbar-logo-centered .navbar-nav .nav-link{
+
+.navbar-logo-centered .navbar-nav .nav-link {
     padding: .5em 1em;
 }
 
@@ -16,27 +23,27 @@
   transition: top 0.5s;
 }
 
+.navbar img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
 .navbar.hidden {
   top: -250px;
 }
 
-.container {
-  user-select: none;
+.aura-text {
+  color: white;
+  font-family: "Karibu Wide Light", sans-serif;
+  letter-spacing: 20px; 
+  margin-bottom: 20px;
 }
 
-.glowing-svg {
-  filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #fff) drop-shadow(0 0 15px #00bcd4) drop-shadow(0 0 20px #ff3d00) drop-shadow(0 0 30px #ff3d00) drop-shadow(0 0 40px #ff3d00) drop-shadow(0 0 50px #ff3d00) drop-shadow(0 0 75px #ff3d00);
+.estudio-text {
+  color: white; 
+  margin-top: 0;
 }
-
-.glowing-svg path {
-  fill: #ff3d00;
-}
-
-  .estudio-text {
-    color: white; 
-    margin-top: 0;
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #00bcd4, 0 0 8px #ff3d00, 0 0 10px #ff3d00, 0 0 12px #ff3d00, 0 0 20px #ff3d00;
-  }
 
 .video-section {
     position: relative;
@@ -44,12 +51,108 @@
     overflow: hidden;
  }
 
- .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; 
-  }
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 20%;
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 0 100%);
+  background: #000;
+}
+
+.quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: #fff;
+  text-align: left;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  font-size: 1.2em;
+  line-height: 0.5;
+}
+
+#somosaura1 {
+  background-image: url('img/performance.jpg');
+  padding-top: 275px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+
+.textofondo {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  font-size: calc(1rem + 1vw);
+  text-align: center;
+}
+
+#somosaura2 {
+  padding-top: 200px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  background-image: url('img/guitars.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+#cuadrados {
+  background-image: url('img/cardsbg.jpg'); 
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#slides {
+  
+}
+
+#sobremi {
+  background-image: url('img/abrahamfondo.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  padding-top: 200px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+}
+
+.custom-caption {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  max-width: 60%;
+  max-height: 150px;
+}
+
+.custom-caption h5 {
+  font-size: 24px;
+  white-space: normal;
+  color: white;
+}
