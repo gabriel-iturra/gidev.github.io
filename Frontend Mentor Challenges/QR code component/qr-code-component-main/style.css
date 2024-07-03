@@ -1,5 +1,33 @@
-* {
-    background-color: #D5E1EF;
+/* QR Code Image */
+.qr-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Title font */
+.outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: clamp(1.5rem, 6.5vw, 3rem);
+    color: hsl(218, 44%, 22%);
+}
+
+/* Description font */
+.outfit-400 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: hsl(220, 15%, 55%);
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 25px;
+    
 }
 .attribution {     
     font-size: 11px; 
@@ -10,3 +38,4 @@
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
+
