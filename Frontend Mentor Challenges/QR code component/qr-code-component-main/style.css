@@ -1,6 +1,6 @@
 /* QR Code Image */
 .qr-img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -24,11 +24,22 @@
     color: hsl(220, 15%, 55%);
 }
 
-.container {
-    background-color: #fff;
-    border-radius: 25px;
-    
+body {
+    padding: 50px;
 }
+
+.container-card {
+    background-color: #fff;
+    max-width: 700px;
+    min-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    box-shadow: 100px 100px 5px 10px #d6e2f0;
+    
+
+}
+
 .attribution {     
     font-size: 11px; 
     text-align: center; 
