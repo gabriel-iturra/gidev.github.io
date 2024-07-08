@@ -1,8 +1,10 @@
 /* QR Code Image */
-.qr-img {
-    max-inline-size: 100%;
-    block-size: auto;
-}
+/* .qr-img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 800px;
+    height: auto;
+} */
 
 /* Title font */
 .outfit-700 {
@@ -25,7 +27,7 @@
 }
 
 body {
-    padding: 50px;
+    padding-left: 20px;
 }
 
 .container-card {
