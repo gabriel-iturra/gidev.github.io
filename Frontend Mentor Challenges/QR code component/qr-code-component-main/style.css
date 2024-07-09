@@ -1,43 +1,60 @@
-/* Title font */
+.qr-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
 .outfit-700 {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: clamp(1.5rem, 6.5vw, 3rem);
+    font-size: clamp(1.4rem, 4.8vw, 1.9rem);
     color: hsl(218, 44%, 22%);
 }
 
-/* Description font */
 .outfit-400 {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(1rem, 4vw, 1.4rem); 
     color: hsl(220, 15%, 55%);
 }
 
-body {
-    padding-left: 20px;
+      
+.container {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-card {
     background-color: #fff;
-    max-width: clamp(100px, 100%, 700px);
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
-    box-shadow: 100px 100px 5px 10px #d6e2f0;
+    max-width: 450px;
+    padding: 20px;
+    box-sizing: border-box; 
+    overflow: hidden;
+    text-align: center; 
 }
 
-.attribution {     
-    font-size: 11px; 
-    text-align: center; 
-    
+.qr-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 60vh;
+}
+
+.container-text {
+    padding: 38px 20px 18px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
 }
-
