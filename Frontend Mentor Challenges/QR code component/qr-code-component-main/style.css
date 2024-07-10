@@ -33,10 +33,9 @@
 
 .container-card {
     background-color: #fff;
+    box-shadow: 1px 1px 100px hsl(222, 71%, 89%);
     max-width: 450px;
-    padding: 20px;
-    box-sizing: border-box; 
-    overflow: hidden;
+    padding: 20px;  
     text-align: center; 
 }
 
