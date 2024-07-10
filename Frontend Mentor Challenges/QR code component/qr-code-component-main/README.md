@@ -23,14 +23,20 @@ In order to complete it, I required more than five days. This delay was mainly d
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot-mobile.png)
+<p align="center">
+  <img src="./screenshot.png" alt=""/>
+</p>
 
+<p align="center">
+  <img src="./screenshot-mobile.png" alt=""/>
+</p>
+<!-- Old screenshot version:
+![](./screenshot.png) -->
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github (this page)](https://github.com/gabriel-iturra/gidev.github.io/tree/main/Frontend%20Mentor%20Challenges/QR%20code%20component/qr-code-component-main)
+- Live Site URL: [Live site link](https://gabriel-iturra.github.io/gidev.github.io/Frontend%20Mentor%20Challenges/QR%20code%20component/qr-code-component-main/index.html)
 
 ## Built with
 
