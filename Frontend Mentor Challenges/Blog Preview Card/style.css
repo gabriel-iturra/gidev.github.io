@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    height: auto;
+    height: 100vh;
 }
 
 .container-card {
