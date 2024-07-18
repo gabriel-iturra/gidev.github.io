@@ -4,14 +4,14 @@ body {
 
 .container {
     height: 100vh;
+    padding: 2rem 3rem 0 1.5rem;
 }
 
 .container-card {
     border: solid hsl(0, 0%, 7%);
     background-color: hsl(0, 0%, 100%);
     box-shadow: 20px 20px hsl(0, 0%, 7%);
-    max-width: 40rem;
-    max-height: auto;
+    max-width: 500px;
 }
 
 .container-card-text {

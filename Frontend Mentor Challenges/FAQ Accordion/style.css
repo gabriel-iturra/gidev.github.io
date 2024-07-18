@@ -1,0 +1,40 @@
+/* Remove triangle from summary */
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+@font-face {
+    font-family: "Work Sans";
+    src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
+    src: url('./assets/fonts/static/WorkSans-Regular.ttf') format('truetype'),
+         url('./assets/fonts/static/WorkSans-Bold.ttf') format('truetype'),
+         url('./assets/fonts/static/WorkSans-SemiBold.ttf') format('truetype'),
+         url('./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('./assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+  }
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans";
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container h1 {
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.accordion {
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
